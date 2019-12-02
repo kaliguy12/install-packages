@@ -1,0 +1,8 @@
+- hosts: all
+  gather_facts: false
+
+  roles:
+   - name: install packages using yum
+     role: install-packages
+     rpm:
+      - git

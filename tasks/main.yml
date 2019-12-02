@@ -1,0 +1,9 @@
+---
+# tasks file for install-packages
+- name: install packages using yum
+  yum:
+   name: "{{ item }}"
+   state: installed
+   validate_certs: False
+  with_items: "{{ rpm }}"
+  become: true
