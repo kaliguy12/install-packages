@@ -1,0 +1,6 @@
+---
+
+- name: create dir
+  hosts: all
+  roles:
+   - role: "{{ playbook_dir }}"
