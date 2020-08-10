@@ -14,8 +14,7 @@
    port: 587
    secure: starttls
    username: "syedhussain.linux@gmail.com"
-   password: "Spyker@12"
-#   from: syedhussain.linux@gmail.com
+   password:  
    to: "syedhussain <syedhussain.linux@gmail.com>"
    cc:
     - krishna18288@gmail.com
