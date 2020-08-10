@@ -7,3 +7,14 @@
    validate_certs: False
   with_items: "{{ rpm }}"
   become: true
+
+- name: send email once the packages are installed
+  mail:
+   from: syedhussain.linux@gmail.com
+   to: syedhussain.linux@gmail.com
+   subject: packages are now installed
+   subtype: html
+   body: '
+     <br>Hi Syed,<br><br>
+     <br>packages are now installed.<br>
+     <br> thanks '
