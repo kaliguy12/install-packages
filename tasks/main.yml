@@ -17,10 +17,12 @@
    password: "Spyker@12"
 #   from: syedhussain.linux@gmail.com
    to: "syedhussain <syedhussain.linux@gmail.com>"
+   cc:
+    - krishna18288@gmail.com
    subject: packages are now installed
    subtype: html
    body: '
      <br>Hi Syed,<br><br>
-     <br>packages are now installed.<br>
+     <br>packages are now installed. crete dir playbook will now start<br>
      <br> thanks '
   delegate_to: localhost
