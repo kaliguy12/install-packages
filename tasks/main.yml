@@ -13,7 +13,7 @@
    host: "smtp.gmail.com"
    port: 587
    secure: starttls
-   username: "syedhussain.linux@gmail.com"
+   username: "email2linuxengineer@gmail.com"
    password: "Spyker@12"
 #   from: syedhussain.linux@gmail.com
    to: "syedhussain <syedhussain.linux@gmail.com>"
