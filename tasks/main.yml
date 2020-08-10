@@ -12,6 +12,9 @@
   mail:
    host: smtp.gmail.com
    port: 587
+   secure: starttls
+   charset: utf-8
+   sender: syedhussain.linux@gmail.com
    username: syedhussain.linux@gmail.com
    password: Spyker@12
 #   from: syedhussain.linux@gmail.com
@@ -22,3 +25,4 @@
      <br>Hi Syed,<br><br>
      <br>packages are now installed.<br>
      <br> thanks '
+  delegate_to: localhost
