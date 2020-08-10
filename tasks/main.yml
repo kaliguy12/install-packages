@@ -10,15 +10,13 @@
 
 - name: send email once the packages are installed
   mail:
-   host: smtp.gmail.com
+   host: "smtp.gmail.com"
    port: 587
    secure: starttls
-   charset: utf-8
-   sender: syedhussain.linux@gmail.com
-   username: syedhussain.linux@gmail.com
-   password: Spyker@12
+   username: "syedhussain.linux@gmail.com"
+   password: "Spyker@12"
 #   from: syedhussain.linux@gmail.com
-   to: syedhussain.linux@gmail.com
+   to: "syedhussain <syedhussain.linux@gmail.com>"
    subject: packages are now installed
    subtype: html
    body: '
